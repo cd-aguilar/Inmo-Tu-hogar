@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    nav {
+        background-color: $colorPrincipal;
+        width: 80%;
+        .menu{
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

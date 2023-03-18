@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header nav {
+  background-color: burlywood;
+  width: 80%;
+}
+header nav .menu {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav .menu li {
+  list-style: none;
+}
+header nav .menu li a {
+  text-decoration: none;
+}
+
+.box, .boxSecundario {
+  display: flex;
+  flex-direction: row;
+  color: azure;
+  width: 200px;
+}
+
+.boxSecundario {
+  color: aqua;
+}
+
+.caja {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+
+.caja2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+
+.caja3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+/*# sourceMappingURL=style.css.map */

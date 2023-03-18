@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$colorPrincipal: burlywood;
+
+@import "partials/header";
+@import "partials/footer";
+
+.box, .boxSecundario{
+    display: flex;
+    flex-direction: row;
+    color: azure;
+    width: 200px;
+}
+.boxSecundario{
+    
+    color: aqua;
+}
+
+@mixin flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end; 
+}
+.caja{
+    @include flex()
+}
+
+
+@mixin cajaFlex($valor1, $valor2, $valor3){
+    display: flex;
+    flex-direction: $valor1;
+    justify-content: $valor2;
+    align-items: $valor3; 
+}
+.caja2{
+    @include flex()
+}
+
+.caja3{
+    @include cajaFlex (column, center, end)
+
+}
